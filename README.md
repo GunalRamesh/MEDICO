@@ -1,2 +1,2 @@
 # MEDICO
-Aggregator
+Aggregator for medical records
