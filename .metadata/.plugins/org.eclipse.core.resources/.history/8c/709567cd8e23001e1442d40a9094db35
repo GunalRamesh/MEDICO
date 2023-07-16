@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+
+
+
+  
+  <title>KIT | Registration Page</title>
+    <link rel="canonical" href="https://codepen.io/Balacheran/pen/Exevgya" />
+  
+  
+  
+  
+<style>
+body {
+  background-color: transparent;
+  background-image: url(campuspic.png);
+   background-size: cover;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  background-color: transparent;
+  border-radius: 10px;
+  
+}
+
+.avatar {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"] {
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.form button {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  outline: none;
+  background-color: #2196F3;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background-color: #1976D2;
+}
+
+.form h2 {
+  color: #333333;
+  font-size: 28px;
+  margin: 0 0 30px;
+}
+
+.form p.message {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.form p.message a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.form p.message a:hover {
+  text-decoration: underline;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Login Page</title>
+    <link rel="stylesheet" type="text/css" href="boot.css">
+  </head>
+  <body>
+    <div class="login-page">
+      <!-- <div class="avatar">
+        <img src="https://cdn.pixabay.com/photo/2017/06/22/02/16/computer-icon-2429310_960_720.png" alt="Avatar">
+      </div> -->
+      <div class="form">
+        <h2>Student Registration</h2>
+        <form action="Student" method="post">
+            <input type="text" placeholder="Firstname" name="firstname">
+            <input type="text" placeholder="Lastname" name="lastname">
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password">
+            <input type="password" placeholder="Re-Enter Password">
+            <button type="submit">Register</button>
+        </form>
+        <p class="message">Registered? <a href="studentlogin.html">Back to login</a></p>
+       
+      </div>
+    </div>
+  </body>
+</html> 
+</body>
+
+</html>
